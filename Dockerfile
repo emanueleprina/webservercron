@@ -70,4 +70,3 @@ EXPOSE 80
 
 # Add a command to base-image entrypont scritp
 RUN sed -i 's/^exec /service cron start\n\nexec /' /usr/local/bin/apache2-foreground
-
